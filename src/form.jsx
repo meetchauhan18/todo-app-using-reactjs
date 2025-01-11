@@ -11,7 +11,7 @@ let arr_tasks = [
     task: "Seawind Solutions - walk-in interview on 10th Jan 2023",
     completed: true,
   },
-  { task: "Complete and crack next round", completed: true },
+  { task: "Complete and crack next round", completed: false },
 ];
 
 localStorage.setItem("tasks", JSON.stringify(arr_tasks));
