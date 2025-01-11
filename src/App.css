@@ -118,3 +118,8 @@
 #input:focus {
   border-color: #646cff;
 }
+
+#task-list li{
+  list-style: none;
+  font-size: 14px;
+}
