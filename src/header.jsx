@@ -1,7 +1,6 @@
 function AppHeader() {
   return (
     <div className="app-header">
-      <img id="app-logo" src="src/assets/work-order.png" alt="App Logo" />
       <div>
         <h1 id="app-title">ToDo App</h1>
         <span id="app-credit">
