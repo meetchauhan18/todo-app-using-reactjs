@@ -75,17 +75,16 @@ function TaskForm() {
         <h2>Task List</h2>
         <ul id="task-list" className="task-list">
           {tasks.map((toDo, index) => (
-            <li
-              style={{ textDecoration: toDo.completed ? "line-through" : "" }}
+            <li id="task-item"
               key={index}
               className={toDo.completed ? "completed" : ""}
             >
-              <input
+              <input id="checkbox"
                 type="checkbox"
                 checked={toDo.completed}
                 onChange={() => toggleTask(toDo.task)}
               />
-              <span>{toDo.task}</span>
+              <span id="task" style={{ textDecoration: toDo.completed ? "line-through 2px red" : "" }}>{toDo.task}</span>
               <button
                 onClick={() => deleteTask(toDo.task)}
                 value={toDo.task}
