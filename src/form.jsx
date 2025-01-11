@@ -55,7 +55,9 @@ function TaskForm() {
   }
 
   return (
+    
     <div id="input-form-container" className="input-form-container">
+      <title>ToDo App</title>
       <AppHeader />
       <form onSubmit={handleSubmit} id="input-form" className="input-form">
         <input
